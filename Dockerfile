@@ -1,4 +1,4 @@
-FROM vaca/s6
+FROM vaca/rc
 
 RUN apk -U add sudo openssh && rm -f /var/cache/apk/*
-COPY sane sshd /
+COPY over /

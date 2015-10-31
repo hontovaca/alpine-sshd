@@ -4,4 +4,3 @@ syslogd:
     #!/usr/bin/execlineb -P
     fdmove -c 2 1
     syslogd -nO-
-  install: 1

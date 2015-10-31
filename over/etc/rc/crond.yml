@@ -4,4 +4,3 @@ crond:
     #!/usr/bin/execlineb -P
     fdmove -c 2 1
     crond -fd8
-  install: 2

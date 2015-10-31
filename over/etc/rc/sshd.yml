@@ -5,4 +5,3 @@ sshd:
     fdmove -c 2 1
     if { ssh-keygen -A }
     /usr/sbin/sshd -De
-  install: 3

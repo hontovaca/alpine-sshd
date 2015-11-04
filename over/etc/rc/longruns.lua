@@ -6,7 +6,7 @@ local function longrun(name, run, ...)
       fdmove -c 2 1
     ]] .. realign(run)),
   }
-  for i,s in global.ipairs({...}) do
+  for i,s in _G.ipairs({...}) do
     rc[s]:merge { contents = name }
   end
 end

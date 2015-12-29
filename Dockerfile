@@ -1,4 +1,4 @@
 FROM vaca/rc
 
-RUN apk -U add sudo openssh && rm -f /var/cache/apk/*
+RUN apk --no-cache add sudo openssh
 COPY over /
